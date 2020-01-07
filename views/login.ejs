@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Prijava</title>
+
+<body>
+<div class="forma">
+    <h1>Zakazi pregled- Prijava</h1>
+    <form action="/login" method='POST'>
+     
+        <input type="email" name="email" placeholder="Email" id="idemail" for="exampleInputEmail1"> 
+		
+    <input type="password" name="sifra" placeholder="Sifra"  id="idsifra" for="exampleInputPassword1" />
+    <input type="submit" value="Prijavi se" />
+    </form>
+    </div>
+
+</body>
+    </html>
+<style type="text/css">
+.forma{
+	font: 95% Arial, Helvetica, sans-serif;
+	padding: 16px;
+    background: #F7F7F7;
+   
+		
+        
+   
+}
+
+.forma h1{
+	background: #1645df;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.forma input[type="submit"],
+.forma input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 50%;
+	padding: 1%;
+	background: #1645df;
+	border-bottom: 2px solid #1645df;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+    color: #fff;
+    font-size: 140%;
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.forma input[type="text"],
+.forma  input[type="date"],
+.forma  input[type="datetime"],
+.forma  input[type="email"],
+.forma  input[type="number"],
+.forma  input[type="search"],
+.forma  input[type="time"],
+.forma  input[type="url"],
+.forma  input[type="password"],
+.forma  textarea,
+.forma  select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 30%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 1%;
+	color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+ 
+    
+}
+.forma input[type="email"]:focus,
+.forma input[type="text"]:focus,
+.forma textarea:focus,
+.forma select:focus 
+{
+	box-shadow: 0 0 5px #1645df;
+	padding: 1%;;
+	border: 1px solid #1645df;
+}
+.forma  input[type="password"]:focus
+
+{
+	box-shadow: 0 0 5px #1645df;
+	padding: 1%;;
+	border: 1px solid #1645df;
+}
+
+.forma input[type="submit"]:hover,
+.forma input[type="button"]:hover{
+    background: #ffa97a;
+    border-bottom: 2px solid #ffa97a;
+}
+</style>
